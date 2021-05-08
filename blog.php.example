@@ -1,1 +1,15 @@
-
+<?php // Settings
+$title=""; // Obligatory!!! Put the name of your blog here
+$description=""; // A description
+$website=""; // Include protocol (ex. https://example.com)
+$custom_css=""; // Put the url of your custom css
+$utterances=''; // Get it on https://utteranc.es. Please use the "Issue title contains page URL"
+// Posts
+$posts=[
+    [
+        "9/4/2021", // Time of publication
+        "Lol", // Title
+        "First post\nNice" // Post
+    ], // The comma between posts is important!!!
+    ["7/5/2021","aaa","noo"]
+]; ?>
